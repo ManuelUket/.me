@@ -1,0 +1,235 @@
+@media only screen and (max-width: 100%) {
+    body {
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      font-family: sans-serif;
+    }
+  }
+    #header {
+        display: flex;
+        height: 50px;
+        background-color: #072227;
+        width: 100%;
+        color: rgb(238, 173, 68);
+        padding-bottom: 20px;
+        margin: 0;
+        padding-top: 0;
+        overflow: hidden;
+        background-size: cover;
+        position: 10px;
+        position: fixed;
+        top: 0px;
+    }
+    #header-img {
+        width: 10%;
+        align-items: center;
+        height: 80px;
+    }
+    #background-img {
+        background-image: url(https://media.istockphoto.com/photos/african-male-playing-beautiful-song-on-piano-picture-id1255997445?b=1&k=20&m=1255997445&s=170667a&w=0&h=2FuYXKWSmnA9kca4iWxZs4UVRqy8dP4zf_PYjL7qLAE=);
+        background-size: 100% 700px; 
+        height: 600px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #h1 {
+        padding-left: 10px;
+        text-align: center;
+        color: rgb(236, 192, 119);
+        padding-top: 300px;
+        font-size: 50px;
+        opacity: 1;
+    }
+    #p {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 400px;
+        font-family: sans-serif;
+    }
+    #nav-bar ul {
+        display: flex;
+        position: relative;
+        left: 500px;
+        bottom: 10px;
+        padding-bottom: 5px;
+    }
+    #nav-bar ul li {
+        justify-content: space-between;
+        padding: 20px;
+        list-style-type: none;
+        font-size: 20px;
+                
+    }
+    #nav-bar ul li a {
+        text-decoration: none;
+        transition: color 0.3s ease;
+        color: rgb(236, 192, 119);
+    
+    }
+    #nav-bar ul li a:hover {
+        color: white;
+    }
+    .features {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .terms {
+        text-align: center;
+        flex-direction: row;
+    }
+    .subheading {
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(236, 192, 119);
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .img {
+        padding: 10px 5px 5px 5px;
+        height: fit-content;
+        width: fit-content;
+        text-align: center;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 2;
+        padding: 0 20px;
+    }
+    h2 {
+        padding: 20px;
+    }
+    #products {
+    display: flex;
+    width: 50%;
+    padding: 0;
+    
+    }
+    .pro-name {
+        display: flex;
+        font-size: larger;
+        justify-content: space-between;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 200px;
+    }
+    #product-info {
+       padding: 20px;
+    }
+    hr {
+        width: 50%;
+        color: rgb(236, 192, 119);
+    }
+    .product-info {
+        text-align: center;
+        border-style: outset;
+        border-radius: 15px;
+        margin: 20px 10px;
+        border-color: rgb(236, 192, 119);
+        background-color:  white;
+        font-size: 20px;
+        width: 63%;
+        font-family: sans-serif;
+    } 
+    #submit {
+        border-radius: 15px;
+        border-color: white;
+        background-color: #125f6d;
+        height: 50px;
+        width: 100px;
+        color: white;
+        transition: color 0.3s ease;
+    }
+    #submit:hover {
+        background-color: #1c9ab0;
+    }
+    #color {
+        width: 30px;
+    }
+    #about-us {
+        background-color: #125f6d;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        line-height: 2;
+        width:97%;
+        font-family: sans-serif;
+    }
+    .about {
+        padding: 0 300px;
+    }
+    #bottom {
+        background-color: #072227;
+        width: 100%;
+        margin: 0%;
+        height: 550px;
+        color: white;
+        text-align: center;
+    }
+    .contact {
+        font-size: 30px;
+    }
+    .p {
+        padding-top: 150px;
+        font-size: 30px;
+    }
+    label {
+        font-size: larger;
+        padding-right: 10px;
+    }
+    #email {
+        height: 40px;
+        width: 100px;
+        border-radius: 15px;
+    }
+    #socials {
+        padding: 10px;
+    }
+    #acct {
+        padding: 10px;
+    }
+    #copyright {
+        font-size: 10px;
+        padding: 20px;
+    }
+    #bottom-1 {
+        background-color: #125f6d;
+        width: 100%;
+        margin: 0%;
+        height: 550px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    #bottom-2 {
+        text-align: center;
+    }
+    .contact {
+        font-size: 30px;
+    }
+    .p {
+        padding-top: 150px;
+        font-size: 30px;
+    }
+    #email {
+        height: 20px;
+        padding:10px;
+      margin: 40px;
+      width: 100px;
+    }
+    #socials {
+        padding-top: 40px;
+    }
+    #acct {
+        padding: 10px;
+    }
+    #copyright {
+        font-size: 10px;
+        padding: 20px;
+        color: black;
+    }
+
